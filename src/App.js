@@ -6,7 +6,7 @@ import PrivateRoute from "./components/PrivateRoute";
 import SignIn from "./pages/SignIn";
 import Profile from "./pages/Profile";
 import ForgotPassword from "./pages/ForgotPassword";
-import Header from "./components/header";
+import Header from "./components/Header";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import CreateList from "./pages/CreateList";
