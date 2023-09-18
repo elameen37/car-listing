@@ -418,14 +418,14 @@ export default function CreateListing() {
                 id="regularPrice"
                 value={regularPrice}
                 onChange={onChange}
-                min="50"
+                min="20"
                 max="400000000"
                 required
                 className="w-full px-4 py-2 text-xl text-gray-700 bg-white border border-gray-300 rounded transition duration-150 ease-in-out focus:text-gray-700 focus:bg-white focus:border-slate-600 text-center"
               />
               {type === "rent" && (
                 <div className="">
-                  <p className="text-md w-full whitespace-nowrap">$ / Day</p>
+                  <p className="text-md w-full whitespace-nowrap">$ / Hour</p>
                 </div>
               )}
             </div>
@@ -441,14 +441,14 @@ export default function CreateListing() {
                   id="discountedPrice"
                   value={discountedPrice}
                   onChange={onChange}
-                  min="50"
+                  min="20"
                   max="400000000"
                   required={offer}
                   className="w-full px-4 py-2 text-xl text-gray-700 bg-white border border-gray-300 rounded transition duration-150 ease-in-out focus:text-gray-700 focus:bg-white focus:border-slate-600 text-center"
                 />
                 {type === "rent" && (
                   <div className="">
-                    <p className="text-md w-full whitespace-nowrap">$ / Day</p>
+                    <p className="text-md w-full whitespace-nowrap">$ / Hour</p>
                   </div>
                 )}
               </div>
