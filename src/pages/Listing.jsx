@@ -13,7 +13,7 @@ import SwiperCore, {
 } from "swiper";
 import "swiper/css/bundle";
 import {
-  FaShareAlt,
+  FaShareSquare,
   FaMapMarkerAlt,
   FaCar,
   FaCarSide,  
@@ -78,7 +78,7 @@ export default function Listing() {
           }, 2000);
         }}
       >
-        <FaShareAlt className="text-lg text-slate-500" />
+        <FaShareSquare className="text-lg text-slate-500" />
       </div>
       {shareLinkCopied && (
         <p className="fixed top-[23%] right-[5%] font-semibold border-2 border-gray-400 rounded-md bg-white z-10 p-2">

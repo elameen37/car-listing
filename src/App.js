@@ -38,6 +38,7 @@ function App() {
             path="/category/:categoryName/:listingId"
             element={<Listing />}
           />
+          {/* <Route path="/category/:categoryName" element={<Category />} /> */}
         </Routes>
       </Router>
       <ToastContainer
