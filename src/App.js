@@ -12,7 +12,7 @@ import "react-toastify/dist/ReactToastify.css";
 import CreateList from "./pages/CreateList";
 import EditListing from "./pages/EditListing";
 import Listing from "./pages/Listing";
-// import Category from "./pages/Category";
+import Category from "./pages/Category";
 
 function App() {
   return (
@@ -38,7 +38,7 @@ function App() {
             path="/category/:categoryName/:listingId"
             element={<Listing />}
           />
-          {/* <Route path="/category/:categoryName" element={<Category />} /> */}
+          <Route path="/category/:categoryName" element={<Category />} />
         </Routes>
       </Router>
       <ToastContainer
