@@ -21,7 +21,7 @@ Our solution is a car listing website that makes it easy to compare prices, feat
    + Learn to use the platform's tools effectively to refine car search results.
    + Recognize the value of the platform's user community in sharing experiences and recommendations for car rental or purchase.
    + Understand how to engage with other users to gain insights and make informed decisions when seeking a car.
-## Technologies ssed
+## Technologies used
 ![IMG-20230917-WA0006](https://github.com/elameen37/car-listing/assets/57746361/04ff81a2-6429-473c-8d39-c2b2cbc59cee)
 + React 18
 + Tailwind CSS v3.0
@@ -41,7 +41,6 @@ Our solution is a car listing website that makes it easy to compare prices, feat
    - Ensuring compatibility with all project dependencies.
    - Staying updated on security practices.
 ### Firebase 9
-   - Handling database schema changes effectively.
    - Implementing secure authentication and authorization.
    - Scaling resources as the user base grows.
    - Ensuring data consistency in a distributed environment.
@@ -88,10 +87,6 @@ Staying Updated on Security Practices
    - Implement automated security scanning tools in your CI/CD pipeline.
    - Regularly apply security patches and updates to Node.js and its dependencies.
 ### Firebase 9
-+ Handling Database Schema Changes Effectively
-   - Use database versioning or migrations tools.
-   - Implement backward-compatible data models to handle schema changes.
-   - Write clear documentation on schema changes for your team.
 + Implementing Secure Authentication and Authorization
    - Use Firebase Authentication with secure practices like multi-factor authentication.
    - Implement Firebase Security Rules to control access to your data.
