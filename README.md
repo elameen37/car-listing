@@ -26,7 +26,9 @@ Our solution is a car listing website that makes it easy to compare prices, feat
 + React 18
 + Tailwind CSS v3.0
 + Node 16
-+ Firebas 9
++ Firebase 9
++ Swiper
++ Google Maps API
 ## Architecture
 ![IMG-20230917-WA0008](https://github.com/elameen37/car-listing/assets/57746361/6f60bb6e-46b0-451a-9f1b-ae00511b5477)
 ## Challenges Identified
