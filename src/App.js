@@ -21,9 +21,9 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/profile" element={<PrivateRoute />}>
+          {/* <Route path="/profile" element={<PrivateRoute />}> */}
             <Route path="/profile" element={<Profile />} />
-          </Route>
+          {/* </Route> */}
           <Route path="/offers" element={<Offers />} />
           <Route path="/sign-up" element={<SignUp />} />
           <Route path="/sign-in" element={<SignIn />} />
