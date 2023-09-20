@@ -106,8 +106,24 @@ Staying Updated on Security Practices
    - Regularly review and optimize your Firebase usage to control costs.
    - Explore alternatives and exit strategies in case of vendor lock-in concerns.
 
+### Steps to create a listing for New User
+- Visit the website.
+- Click sign in.
+- Click register.
+- Complete the registration form and you will be redirected to your profile page.
+- Click sell or rent your car button to create your listing.
+- Complete the listing form (All fields are required).
+- Create listing
+### Other features 
+- View listing (Offers, cars for sale and cars for rent)
+- Edit user profile
+- Edit listing
+- Delete listing
+- Sign out
+- Contact car dealer (via email)
 
-
-
-
+### Team
+- Babalola Raphael Kehinde
+- Adewumi Kafilat
+- Aminu Shuaibu
 
