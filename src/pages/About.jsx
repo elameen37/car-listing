@@ -36,7 +36,7 @@ export const About = () => {
             <img className="w-12 h-12" src={github} alt="" />
           </a>
           <p className="text-2xl font-medium">Babalola Raphael Kehinde</p>
-          <p>Frontend Engineer</p>
+          <p>Backend Engineer</p>
         </div>
         <div className="flex flex-col gap-4 items-center">
           <a href="https://github.com/DevKaffy">
