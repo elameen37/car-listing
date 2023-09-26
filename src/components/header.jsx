@@ -59,6 +59,17 @@ export default function Header() {
             >
               Home
             </Link>
+            {/* Home link */}
+            <Link
+              to="/about"
+              className={`cursor-pointer py-3 text-sm font-semibold border-b-[3px]  ${
+                pathMatchRoute("/about")
+                  ? "text-black border-b-red-500"
+                  : "border-b-transparent text-gray-400 "
+              }`}
+            >
+              About
+            </Link>
             {/* Offers link */}
             <Link
               to="/offers"
@@ -82,6 +93,10 @@ export default function Header() {
               {isLoggedIn ? "Profile" : "Sign in"}
             </Link>
           </div>
+        </div>
+        <div id="mobile">
+          <i className="fas fa-bars"></i>
+          <i class="fas fa-times"> </i>
         </div>
       </header>
     </div>

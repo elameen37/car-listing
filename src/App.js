@@ -13,6 +13,7 @@ import CreateList from "./pages/CreateList";
 import EditListing from "./pages/EditListing";
 import Listing from "./pages/Listing";
 import Category from "./pages/Category";
+import { About } from "./pages/About";
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/profile" element={<PrivateRoute />}> */}
-            <Route path="/profile" element={<Profile />} />
+          <Route path="/profile" element={<Profile />} />
           {/* </Route> */}
+          <Route path="/about" element={<About />} />
           <Route path="/offers" element={<Offers />} />
           <Route path="/sign-up" element={<SignUp />} />
           <Route path="/sign-in" element={<SignIn />} />
