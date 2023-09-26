@@ -6,11 +6,11 @@ export const About = () => {
   return (
     <main className="p-8">
       <h1 className="text-3xl text-center font-bold mb-8">About Us</h1>
-      <div className="flex justify-between flex-wrap items-start px-6 mx-w-6xl mx-auto mb-12">
-        <div className="w-[50%] text-2xl leading-10">
+      <div className="lg:flex justify-between flex-wrap items-start px-6 mx-w-6xl mx-auto mb-12">
+        <div className="lg:w-[50%] lg:mb-0 mb-8 text-2xl leading-10">
           <img className="w-full" src={hyndai} alt="" />
         </div>
-        <div className="w-[40%] text-2xl leading-10">
+        <div className="lg:w-[40%] text-2xl leading-10">
           <p>
             Superkarz is a car listing website that makes it easy to compare prices, features, and availability for all types of cars. With our website, users can search for a car based on their specific needs and preferences, such as price range, location, and car features. We
             have also provided a platform for users to connect with each other and share their experiences with car rental or buying.
