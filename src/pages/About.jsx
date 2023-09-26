@@ -25,21 +25,25 @@ export const About = () => {
       <h1 className="text-3xl text-center font-bold mb-8">TEAM</h1>
       <div className="flex items-center justify-center gap-12 flex-wrap">
         <div className="flex flex-col gap-4 items-center">
+          <a href="http://github.com/elameen37">
           <img className="w-12 h-12" src={github} alt="" />
+          </a>
           <p>Aminu Shuaibu</p>
           <p>Backend Engineer</p>
         </div>
         <div className="flex flex-col gap-4 items-center">
-        <a href="">
-          <img className="w-12 h-12" src={github} alt="" />
-        </a>
-          <p>Aminu Shuaibu</p>
-          <p>Backend Engineer</p>
+          <a href="">
+            <img className="w-12 h-12" src={github} alt="" />
+          </a>
+          <p>Babalola Raphael Kehinde</p>
+          <p>Frontend Engineer</p>
         </div>
         <div className="flex flex-col gap-4 items-center">
-          <img className="w-12 h-12" src={github} alt="" />
-          <p>Aminu Shuaibu</p>
-          <p>Backend Engineer</p>
+          <a href="https://github.com/DevKaffy">
+            <img className="w-12 h-12" src={github} alt="" />
+          </a>
+          <p>Adewumi Kafilat</p>
+          <p>Frontend Engineer</p>
         </div>
       </div>
     </main>
