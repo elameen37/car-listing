@@ -94,10 +94,6 @@ export default function Header() {
             </Link>
           </div>
         </div>
-        <div id="mobile">
-          <i className="fas fa-bars"></i>
-          <i class="fas fa-times"> </i>
-        </div>
       </header>
     </div>
   );

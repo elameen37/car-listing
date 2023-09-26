@@ -1,10 +1,11 @@
 import React from 'react'
+import github from '../assets/svg/github.svg'
 
 export const About = () => {
   return (
     <main className="p-8">
       <h1 className="text-3xl text-center font-bold mb-4">About Us</h1>
-      <div className="flex justify-between flex-wrap items-start px-6 mx-w-6xl mx-auto">
+      <div className="flex justify-between flex-wrap items-start px-6 mx-w-6xl mx-auto mb-8">
         <div className="w-[50%] text-2xl leading-10">
           Superkarz is a car listing website that makes it easy to compare
           prices, features, and availability for all types of cars. With our
@@ -19,6 +20,26 @@ export const About = () => {
           you'll be able to find the perfect car for your needs. We believe that
           our solution will change the way people think about renting and buying
           cars.
+        </div>
+      </div>
+      <h1 className="text-3xl text-center font-bold mb-8">TEAM</h1>
+      <div className="flex items-center justify-center gap-12 flex-wrap">
+        <div className="flex flex-col gap-4 items-center">
+          <img className="w-12 h-12" src={github} alt="" />
+          <p>Aminu Shuaibu</p>
+          <p>Backend Engineer</p>
+        </div>
+        <div className="flex flex-col gap-4 items-center">
+        <a href="">
+          <img className="w-12 h-12" src={github} alt="" />
+        </a>
+          <p>Aminu Shuaibu</p>
+          <p>Backend Engineer</p>
+        </div>
+        <div className="flex flex-col gap-4 items-center">
+          <img className="w-12 h-12" src={github} alt="" />
+          <p>Aminu Shuaibu</p>
+          <p>Backend Engineer</p>
         </div>
       </div>
     </main>
