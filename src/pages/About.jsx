@@ -26,23 +26,23 @@ export const About = () => {
       <div className="flex items-center justify-center gap-12 flex-wrap">
         <div className="flex flex-col gap-4 items-center">
           <a href="http://github.com/elameen37">
-          <img className="w-12 h-12" src={github} alt="" />
+            <img className="w-12 h-12" src={github} alt="" />
           </a>
-          <p>Aminu Shuaibu</p>
+          <p className="text-2xl font-medium">Aminu Shuaibu</p>
           <p>Backend Engineer</p>
         </div>
         <div className="flex flex-col gap-4 items-center">
           <a href="">
             <img className="w-12 h-12" src={github} alt="" />
           </a>
-          <p>Babalola Raphael Kehinde</p>
+          <p className="text-2xl font-medium">Babalola Raphael Kehinde</p>
           <p>Frontend Engineer</p>
         </div>
         <div className="flex flex-col gap-4 items-center">
           <a href="https://github.com/DevKaffy">
             <img className="w-12 h-12" src={github} alt="" />
           </a>
-          <p>Adewumi Kafilat</p>
+          <p className="text-2xl font-medium">Adewumi Kafilat</p>
           <p>Frontend Engineer</p>
         </div>
       </div>
