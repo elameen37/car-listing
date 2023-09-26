@@ -7,7 +7,7 @@ export const About = () => {
     <main className="p-8">
       <h1 className="text-3xl text-center font-bold mb-8">About Us</h1>
       <div className="lg:flex justify-between flex-wrap items-start px-6 mx-w-6xl mx-auto mb-12">
-        <div className="lg:w-[50%] lg:mb-0 mb-8 text-2xl leading-10">
+        <div className="lg:w-[50%] lg:mb-0 mb-8">
           <img className="w-full" src={hyndai} alt="" />
         </div>
         <div className="lg:w-[45%] text-2xl leading-10">
