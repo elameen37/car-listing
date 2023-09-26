@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <main className="p-8">
       <h1 className="text-3xl text-center font-bold mb-4">About Us</h1>
-      <div className="flex justify-between flex-wrap items-start px-6 py-8 mx-w-6xl mx-auto">
+      <div className="flex justify-between flex-wrap items-start px-6 mx-w-6xl mx-auto">
         <div className="w-[50%] text-2xl leading-10">
           Superkarz is a car listing website that makes it easy to compare
           prices, features, and availability for all types of cars. With our
