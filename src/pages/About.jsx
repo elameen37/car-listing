@@ -1,6 +1,6 @@
-import React from 'react'
-import github from '../assets/svg/github.svg'
-import hyndai from '../assets/hyndai.jpeg'
+import React from "react";
+import github from "../assets/svg/github.svg";
+import hyndai from "../assets/hyndai.jpeg";
 
 export const About = () => {
   return (
@@ -12,8 +12,12 @@ export const About = () => {
         </div>
         <div className="lg:w-[45%] text-xl text-justify leading-10">
           <p>
-            Superkarz is a car listing website that makes it easy to compare prices, features, and availability for all types of cars. With our website, users can search for a car based on their specific needs and preferences, such as price range, location, and car features. We
-            have also provided a platform for users to connect with each other and share their experiences with car rental or buying.
+            Superkarz is a car listing website that makes it easy to compare
+            prices, features, and availability for all types of cars. With our
+            website, users can search for a car based on their specific needs
+            and preferences, such as price range, location, and car features. We
+            have also provided a platform for users to connect with each other
+            and share their experiences with car rental or buying.
           </p>
           <p>
             So, if you're looking for the best way to find and rent or buy a
@@ -50,5 +54,4 @@ export const About = () => {
       </div>
     </main>
   );
-}
-
+};
