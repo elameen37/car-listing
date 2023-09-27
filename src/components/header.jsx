@@ -1,4 +1,3 @@
-// Import necessary hooks from the react-router-dom library.
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate, Link } from "react-router-dom";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
@@ -31,7 +30,7 @@ export default function Header() {
   // Render the Header component.
 
   console.log(
-    location.pathname == "/profile" || location.pathname == "/sign-in"
+    location.pathname === "/profile" || location.pathname === "/sign-in"
   );
   return (
     <div className="bg-white border-b shadow-sm sticky top-0 z-50">
@@ -39,7 +38,7 @@ export default function Header() {
         <div>
           {/* Logo */}
           <img
-            src="logo.png"
+            src="https://i.ibb.co/3r2pWrD/logo.png"
             alt="logo"
             className="h-8 cursor-pointer"
             onClick={() => navigate("/")}
