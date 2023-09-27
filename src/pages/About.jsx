@@ -5,12 +5,12 @@ import hyndai from "../assets/hyndai.jpeg";
 export const About = () => {
   return (
     <main className="p-8">
-      <h1 className="text-3xl text-center font-bold mb-8">About Us</h1>
+      <h1 className="text-3xl text-center font-bold mb-8">About</h1>
       <div className="lg:flex justify-between flex-wrap items-start px-6 mx-w-6xl mx-auto mb-12">
         <div className="lg:w-[50%] lg:mb-0 mb-8">
           <img className="w-full" src={hyndai} alt="" />
         </div>
-        <div className="lg:w-[45%] text-2xl text-justify leading-10">
+        <div className="lg:w-[45%] text-xl text-justify leading-10">
           <p>
             Superkarz is a car listing website that makes it easy to compare
             prices, features, and availability for all types of cars. With our
@@ -31,14 +31,7 @@ export const About = () => {
       <h1 className="text-3xl text-center font-bold mb-8">TEAM</h1>
       <div className="flex items-center justify-center gap-12 flex-wrap">
         <div className="flex flex-col gap-4 items-center">
-          <a href="http://github.com/elameen37">
-            <img className="w-12 h-12" src={github} alt="" />
-          </a>
-          <p className="text-2xl font-medium">Aminu Shaibu</p>
-          <p>Backend Engineer</p>
-        </div>
-        <div className="flex flex-col gap-4 items-center">
-          <a href="">
+          <a href="http://github.com/geeflows44">
             <img className="w-12 h-12" src={github} alt="" />
           </a>
           <p className="text-2xl font-medium">Babalola Raphael Kehinde</p>
@@ -50,6 +43,13 @@ export const About = () => {
           </a>
           <p className="text-2xl font-medium">Adewumi Kafilat</p>
           <p>Frontend Engineer</p>
+        </div>
+        <div className="flex flex-col gap-4 items-center">
+          <a href="https://github.com/elameen37">
+            <img className="w-12 h-12" src={github} alt="" />
+          </a>
+          <p className="text-2xl font-medium">Aminu Shaibu</p>
+          <p>Backend Engineer</p>
         </div>
       </div>
     </main>
