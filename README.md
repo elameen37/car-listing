@@ -111,15 +111,13 @@ Staying Updated on Security Practices
 
 ## Available Scripts
 
-In the project directory, you can run app in the development mode.\:
+In this project directory, you can run app in development mode\:
 
 ### `npm start`
 
 OR
 
-Visit
-
-Open [https://car-listing-alx-project.vercel.app/](https://car-listing-alx-project.vercel.app/) from your browser.
+Visit [https://car-listing-alx-project.vercel.app/](https://car-listing-alx-project.vercel.app/) from your browser.
 
 ### Steps to create a listing for New User
 - Visit the website 
