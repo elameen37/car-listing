@@ -10,7 +10,7 @@ export const About = () => {
         <div className="lg:w-[50%] lg:mb-0 mb-8">
           <img className="w-full" src={hyndai} alt="" />
         </div>
-        <div className="lg:w-[45%] text-lg text-justify leading-10">
+        <div className="lg:w-[45%] text-xl text-justify leading-10">
           <p>
             Superkarz is a car listing website that makes it easy to compare
             prices, features, and availability for all types of cars. With our
