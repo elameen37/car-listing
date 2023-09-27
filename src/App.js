@@ -22,9 +22,9 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/profile" element={<PrivateRoute />}> */}
+          <Route path="/profile" element={<PrivateRoute />}>
           <Route path="/profile" element={<Profile />} />
-          {/* </Route> */}
+          </Route>
           <Route path="/about" element={<About />} />
           <Route path="/offers" element={<Offers />} />
           <Route path="/sign-up" element={<SignUp />} />
