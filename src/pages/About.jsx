@@ -49,7 +49,7 @@ export const About = () => {
             <img className="w-12 h-12" src={github} alt="" />
           </a>
           <p className="text-2xl font-medium">Aminu Shaibu</p>
-          <p>Backend Engineer</p>
+          <p>FullStack Engineer</p>
         </div>
       </div>
     </main>
