@@ -50,7 +50,7 @@ export default function Header() {
             {/* Home link */}
             <Link
               to="/"
-              className={`cursor-pointer py-3 text-sm font-semibold border-b-[3px]  ${
+              className={`hidden sm:inline-block cursor-pointer py-3 text-sm font-semibold border-b-[3px]  ${
                 pathMatchRoute("/")
                   ? "text-black border-b-red-500"
                   : "border-b-transparent text-gray-400 "
@@ -61,7 +61,7 @@ export default function Header() {
             {/* Home link */}
             <Link
               to="/about"
-              className={`cursor-pointer py-3 text-sm font-semibold border-b-[3px]  ${
+              className={`hidden sm:inline-block cursor-pointer py-3 text-sm font-semibold border-b-[3px]  ${
                 pathMatchRoute("/about")
                   ? "text-black border-b-red-500"
                   : "border-b-transparent text-gray-400 "
