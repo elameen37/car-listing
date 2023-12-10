@@ -54,7 +54,7 @@ export default function Header() {
           {/* Mobile menu button */}
           <button
             onClick={toggleMobileMenu}
-            className="sm:hidden ml-6 text-red-600 text-xl font-extrabold focus:outline-none"
+            className="sm:hidden ml-6 text-red-600 text-3xl font-extrabold focus:outline-none"
           >
             {mobileMenuOpen ? <FaTimes /> : <FaBars />}
           </button>
